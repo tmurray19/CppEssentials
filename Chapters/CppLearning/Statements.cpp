@@ -4,7 +4,7 @@
 #include <string>
 using namespace std;
 
-int main() {
+int statements() {
 
 	int x;	// Statement
 	x = 42; // Expression
