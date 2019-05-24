@@ -29,3 +29,43 @@ int structs() {
 
 	return 0;
 }
+
+//
+//
+// Bit fields
+//
+//
+//
+
+
+struct preferences {
+	// Define defaults
+	// Bools are bit fields
+	// They only need one bit, 0 to indicate false, 1 to indicate true
+	bool likesMusic : 1;
+	bool hasHair : 1;
+	bool hasInternet : 1;
+	bool hasDinosaur : 1;
+	// Unsigned because you can't really have negative children
+	unsigned int numberOfChildren : 4;
+};
+
+int bitFields () {
+	struct preferences homer;
+	homer.likesMusic = true;
+	homer.hasHair = false;
+	homer.hasInternet = true;
+	homer.hasDinosaur = false;
+	homer.numberOfChildren = 3;
+
+	printf("Size of int: %ld bits.\n", sizeof(int) * 8);
+	printf("Size of homer: %ld bits.\n", sizeof(homer) * 8);
+
+	if (homer.likesMusic) printf("Homer likes music.\n");
+	if (homer.hasHair) printf("Homer likes music.\n");
+	if (homer.hasInternet) printf("Homer likes music.\n");
+	if (homer.hasDinosaur) printf("Homer likes music.\n");
+	printf("Homer has %d children.\n", homer.numberOfChildren);
+
+	return 0;
+}
