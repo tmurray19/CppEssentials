@@ -16,7 +16,7 @@ int& f_original(int& i) {
 
 
 // Exploring references
-int main() {
+int references() {
 
 
 	int i = 31;
