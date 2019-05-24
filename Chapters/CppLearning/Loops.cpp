@@ -90,7 +90,7 @@ int forLoops() {
 
 
 // Ranged-based for loops [ for ( char i : string, ...){ ...}]
-int rangedBasedForLoops() {
+int RangedBasedForLoops() {
 
 	int array[] = { 1, 2, 3, 4, 5 };
 
@@ -118,4 +118,5 @@ int rangedBasedForLoops() {
 		printf("c is %c.\n", c);
 	}
 
+	return 0;
 }

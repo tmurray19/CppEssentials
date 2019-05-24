@@ -24,6 +24,7 @@
     <ClCompile Include="Loops.cpp" />
     <ClCompile Include="Pointers.cpp" />
     <ClCompile Include="primitiveTypes.cpp" />
+    <ClCompile Include="StandardOutputStream.cpp" />
     <ClCompile Include="Statements.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
