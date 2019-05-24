@@ -19,7 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Conditionals.cpp" />
     <ClCompile Include="Hello.cpp" />
+    <ClCompile Include="Loops.cpp" />
     <ClCompile Include="Pointers.cpp" />
     <ClCompile Include="primitiveTypes.cpp" />
     <ClCompile Include="Statements.cpp" />
