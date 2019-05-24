@@ -17,7 +17,7 @@ using namespace std;
 
 // Function declaration
 // main is automatically called by the OS
-int main() {
+int hello() {
 	puts("Hello, World!");
 	// printf("Hello, World!");
 	// cout << "Hello, World!" << endl;
