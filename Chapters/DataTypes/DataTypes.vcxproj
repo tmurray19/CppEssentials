@@ -124,10 +124,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Characters.cpp" />
+    <ClCompile Include="Enums.cpp" />
     <ClCompile Include="Integers.cpp" />
     <ClCompile Include="Qualifiers.cpp" />
     <ClCompile Include="References.cpp" />
     <ClCompile Include="Structs.cpp" />
+    <ClCompile Include="Unions.cpp" />
+    <ClCompile Include="VarTypes.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
