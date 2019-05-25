@@ -125,6 +125,7 @@
   <ItemGroup>
     <ClCompile Include="CommonOperators.cpp" />
     <ClCompile Include="MoreOperators.cpp" />
+    <ClCompile Include="OtherOperators.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
