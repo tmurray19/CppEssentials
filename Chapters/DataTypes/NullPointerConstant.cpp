@@ -19,7 +19,7 @@ void f(const char* s) {
 // If we call f with a string, the bottom f is called
 // nullptr is a null pointer of any type, pointing to a 0 in memory
 // Run the code to see details
-int main() {
+int ambiguousNullPointer() {
 	f(3);
 	f("dsad");
 	f(NULL);
