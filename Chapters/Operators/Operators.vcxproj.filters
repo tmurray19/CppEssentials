@@ -18,5 +18,8 @@
     <ClCompile Include="CommonOperators.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MoreOperators.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
