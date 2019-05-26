@@ -105,7 +105,7 @@ const string & stringFunc() {
 }
 
 
-int main() {
+int returningValues() {
 	puts("This is main().\n");
 
 
