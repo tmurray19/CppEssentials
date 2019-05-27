@@ -123,6 +123,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ExceptionHandling.cpp" />
+    <ClCompile Include="IOFileStream.cpp" />
     <ClCompile Include="IOStream.cpp" />
     <ClCompile Include="Strings.cpp" />
     <ClCompile Include="Vectors.cpp" />

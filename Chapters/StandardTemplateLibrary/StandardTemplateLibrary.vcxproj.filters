@@ -24,5 +24,11 @@
     <ClCompile Include="IOStream.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="IOFileStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionHandling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
